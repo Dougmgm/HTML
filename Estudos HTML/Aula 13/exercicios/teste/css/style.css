@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+:root {
+    --cor-background-body: rgb(213, 0, 0); 
+    --cor-texto-article: yellow;
+    --cor-basica: solid black;
+    --cor-clara-txt: whitesmoke;
+    --fonte-padrão: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-image: url(../../img/flame.jpg);
+    background-repeat: repeat-x;
+}
+
+header{
+    background-color: var(--cor-background-body); 
+    color:var(--cor-clara-txt);
+}
+
+h1{
+    height: 60px;
+    width: auto;
+    font-size: 115%;
+    font-family: var(--fonte-padrão);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+article{
+    line-height: 30px;
+    color: var(--cor-texto-article);
+    font-family: var(--fonte-padrão);
+    display: flex;
+    justify-content: space-around;
+}
+
+figure{
+    padding-top: 15px;
+    margin-left: 27%;
+}
+
+.submenu:hover{
+    cursor: pointer;
+    background-color: blue;
+}
+
+#capa{
+    height: 100px;
+    width: auto;
+}
+
